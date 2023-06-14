@@ -1,0 +1,126 @@
+#menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  width: 100%;
+  height: 30px;
+  justify-content: space-around;
+  background-color: red;
+  padding-left: 0%;
+}
+#trangchu {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.topic {
+  font-weight: bold;
+}
+.menu-ele {
+  padding-top: 5px;
+  width: 20%;
+  padding-left: 8.5%;
+}
+#kinhte {
+  border: 1px solid black;
+  border-bottom: none;
+  border-top: none;
+  position: relative;
+}
+#vanhoa {
+  border: 1px solid black;
+  border-bottom: none;
+  border-top: none;
+}
+.menu-ele:hover {
+  padding-top: 5px;
+  width: 20%;
+  padding-left: 8.5%;
+  color: white;
+}
+#kinhte-content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(82, 82, 188);
+  height: 150px;
+  width: 140px;
+  list-style-type: none;
+  padding-left: 0;
+}
+.ktc-ele {
+  font-weight: bold;
+  border: 1px solid grey;
+  border-style: dashed;
+  border-left: none;
+  border-right: none;
+  height: 25%;
+  padding-top: 8%;
+  text-align: center;
+}
+.ktc-ele:hover {
+  font-weight: bold;
+  border: 1px solid grey;
+  border-style: dashed;
+  border-left: none;
+  border-right: none;
+  height: 25%;
+  padding-top: 8%;
+  text-align: center;
+  background-color: rgb(8, 8, 78);
+}
+#doanhnghiep-content {
+  background-color: rgb(20, 183, 201);
+  width: 140px;
+  height: 130px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.dnc-ele {
+  height: 33.3%;
+  border: 1px solid grey;
+  border-style: dashed;
+  border-left: none;
+  border-right: none;
+  font-weight: bold;
+  padding-top: 9%;
+  text-align: center;
+}
+.dnc-ele:hover {
+  height: 33.3%;
+  border: 1px solid grey;
+  border-style: dashed;
+  border-left: none;
+  border-right: none;
+  font-weight: bold;
+  padding-top: 9%;
+  text-align: center;
+  background-color: rgb(13, 92, 131);
+}
+
+.dnc-design {
+  text-decoration: none;
+  color: black;
+}
+#doanhnghiep {
+  position: relative;
+}
+#dnc-hide {
+  position: absolute;
+  left: 140px;
+  top: -1.5px;
+  display: none;
+}
+#doanhnghiep:hover #dnc-hide {
+  display: inline;
+}
+#ktc-hide {
+  position: absolute;
+  top: 30px;
+  left: 105px;
+  display: none;
+}
+#kinhte:hover #ktc-hide {
+  display: block;
+}

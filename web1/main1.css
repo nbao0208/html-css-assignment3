@@ -1,0 +1,67 @@
+#logo {
+  background-color: lightgray;
+  width: 100%;
+  height: 150px;
+  border: 1.5px solid black;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-left-style: none;
+}
+#thelogo {
+  width: 33.3%;
+  height: 120px;
+  margin-left: 33.3%;
+  border: 1.5px solid black;
+  background-color: whitesmoke;
+}
+#suggest {
+  font-size: 100px;
+  font-style: oblique;
+  color: gray;
+  padding-left: 14.5%;
+  text-shadow: 10px 10px 6.5px black;
+}
+#day {
+  background-color: rgba(128, 128, 128, 0.7);
+  width: 100%;
+  height: 45px;
+  border: 1.5px solid black;
+  border-right-style: none;
+  border-left-style: none;
+}
+#textday {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+#tele-textday {
+  display: inline-block;
+  padding-top: 12px;
+  padding-left: 10px;
+}
+#content {
+  display: flex;
+  width: 100%;
+  height: 620px;
+}
+#part1 {
+  width: 25%;
+  height: 620px;
+  background-color: rgba(128, 128, 128, 0.4);
+  border: 1.5px solid black;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+}
+#part2 {
+  width: 75%;
+  height: 620px;
+}
+#copyright {
+  background-color: rgba(128, 128, 128, 0.7);
+  width: 100%;
+  border: 1.5px solid black;
+  border-right-style: none;
+  border-left-style: none;
+}
